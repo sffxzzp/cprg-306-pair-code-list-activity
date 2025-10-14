@@ -68,7 +68,7 @@ Before you write any code, plan your approach at a high level.
 
 ### Step 1: Review the Product Data Structure (5 minutes)
 
-The starter repo contains a file `/src/data/products.js` with an array of 9 coffee and tea products. Each object has this structure:
+The starter repo contains a file `/app/data/products.js` with an array of 9 coffee and tea products. Each object has this structure:
 
 ```javascript
 {
