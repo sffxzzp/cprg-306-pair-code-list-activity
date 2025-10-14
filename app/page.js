@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function Home() {
   return (
     <div>
@@ -31,6 +32,7 @@ export default function Home() {
                   Eveniet, temporibus.
                 </p>
                 <div>
+                  {/* The Link will follow up to a separate dynamic route that we'll make in a later lab */}
                   <Link href="#">Secondary Action</Link>
                   <button>Primary Action</button>
                 </div>
