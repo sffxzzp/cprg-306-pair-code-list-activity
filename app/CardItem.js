@@ -22,12 +22,15 @@ export default function CardItem({
           className="h-full w-full object-cover"
         />
       </div>
-      {/* Title 和 Subtitle 另起一行 */}
       <div className="border-b p-4">
         <h3 className="mb-1 text-lg font-semibold text-gray-900">{title}</h3>
         <p className="mb-2 text-sm text-gray-600">
           <strong>{subtitle}</strong>
         </p>
+        <p className="mb-2 text-base font-bold text-green-700">
+          ${price.toFixed(2)}
+        </p>
+        <p className="mb-2 text-xs text-gray-500">{category}</p>
       </div>
       <div className="p-4">
         <p className="mb-4 text-gray-700">{description}</p>
